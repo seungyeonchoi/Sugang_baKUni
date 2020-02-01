@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55C137F2FAB3A706A77B5E11 /* Pods_baKUni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6A985DEC27EE1210D668CF /* Pods_baKUni.framework */; };
 		CE230B8523E3EDC100D24706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE230B8423E3EDC100D24706 /* AppDelegate.swift */; };
 		CE230B8723E3EDC100D24706 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE230B8623E3EDC100D24706 /* SceneDelegate.swift */; };
-		CE230B8923E3EDC100D24706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE230B8823E3EDC100D24706 /* ViewController.swift */; };
+		CE230B8923E3EDC100D24706 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE230B8823E3EDC100D24706 /* searchViewController.swift */; };
 		CE230B8C23E3EDC100D24706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE230B8A23E3EDC100D24706 /* Main.storyboard */; };
 		CE230B8E23E3EDC400D24706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE230B8D23E3EDC400D24706 /* Assets.xcassets */; };
 		CE230B9123E3EDC400D24706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE230B8F23E3EDC400D24706 /* LaunchScreen.storyboard */; };
+		CE71FD0D23E3F4C9001EA025 /* SearchBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71FD0C23E3F4C9001EA025 /* SearchBarContainerView.swift */; };
+		CE71FD0F23E3F61A001EA025 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71FD0E23E3F61A001EA025 /* SearchResultCell.swift */; };
+		CE71FD1923E5F0D4001EA025 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71FD1823E5F0D4001EA025 /* Subject.swift */; };
+		CE7F3C2F23E3F3E900D0E214 /* searchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F3C2E23E3F3E900D0E214 /* searchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C6A985DEC27EE1210D668CF /* Pods_baKUni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_baKUni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		795516FDBDFB9C7A2A336645 /* Pods-baKUni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baKUni.release.xcconfig"; path = "Target Support Files/Pods-baKUni/Pods-baKUni.release.xcconfig"; sourceTree = "<group>"; };
+		8EA0E7622B8C66400237D1C2 /* Pods-baKUni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baKUni.debug.xcconfig"; path = "Target Support Files/Pods-baKUni/Pods-baKUni.debug.xcconfig"; sourceTree = "<group>"; };
 		CE230B8123E3EDC100D24706 /* baKUni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baKUni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE230B8423E3EDC100D24706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE230B8623E3EDC100D24706 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE230B8823E3EDC100D24706 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE230B8823E3EDC100D24706 /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 		CE230B8B23E3EDC100D24706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE230B8D23E3EDC400D24706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE230B9023E3EDC400D24706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE230B9223E3EDC400D24706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE71FD0C23E3F4C9001EA025 /* SearchBarContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarContainerView.swift; sourceTree = "<group>"; };
+		CE71FD0E23E3F61A001EA025 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		CE71FD1823E5F0D4001EA025 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		CE7F3C2E23E3F3E900D0E214 /* searchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C137F2FAB3A706A77B5E11 /* Pods_baKUni.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BC77B5730EF2E9E29315ECC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EA0E7622B8C66400237D1C2 /* Pods-baKUni.debug.xcconfig */,
+				795516FDBDFB9C7A2A336645 /* Pods-baKUni.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B67E5FAF531B2F2C404D6322 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C6A985DEC27EE1210D668CF /* Pods_baKUni.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE230B7823E3EDC100D24706 = {
 			isa = PBXGroup;
 			children = (
 				CE230B8323E3EDC100D24706 /* baKUni */,
 				CE230B8223E3EDC100D24706 /* Products */,
+				7BC77B5730EF2E9E29315ECC /* Pods */,
+				B67E5FAF531B2F2C404D6322 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +90,11 @@
 			children = (
 				CE230B8423E3EDC100D24706 /* AppDelegate.swift */,
 				CE230B8623E3EDC100D24706 /* SceneDelegate.swift */,
-				CE230B8823E3EDC100D24706 /* ViewController.swift */,
+				CE230B8823E3EDC100D24706 /* searchViewController.swift */,
+				CE7F3C2E23E3F3E900D0E214 /* searchView.swift */,
+				CE71FD0C23E3F4C9001EA025 /* SearchBarContainerView.swift */,
+				CE71FD0E23E3F61A001EA025 /* SearchResultCell.swift */,
+				CE71FD1823E5F0D4001EA025 /* Subject.swift */,
 				CE230B8A23E3EDC100D24706 /* Main.storyboard */,
 				CE230B8D23E3EDC400D24706 /* Assets.xcassets */,
 				CE230B8F23E3EDC400D24706 /* LaunchScreen.storyboard */,
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE230B9523E3EDC400D24706 /* Build configuration list for PBXNativeTarget "baKUni" */;
 			buildPhases = (
+				90594471E38C6BC4BCB6687C /* [CP] Check Pods Manifest.lock */,
 				CE230B7D23E3EDC100D24706 /* Sources */,
 				CE230B7E23E3EDC100D24706 /* Frameworks */,
 				CE230B7F23E3EDC100D24706 /* Resources */,
+				6685DC4B59353E17A572D763 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +171,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6685DC4B59353E17A572D763 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baKUni/Pods-baKUni-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-baKUni/Pods-baKUni-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-baKUni/Pods-baKUni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90594471E38C6BC4BCB6687C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-baKUni-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE230B7D23E3EDC100D24706 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE230B8923E3EDC100D24706 /* ViewController.swift in Sources */,
+				CE7F3C2F23E3F3E900D0E214 /* searchView.swift in Sources */,
+				CE230B8923E3EDC100D24706 /* searchViewController.swift in Sources */,
+				CE71FD1923E5F0D4001EA025 /* Subject.swift in Sources */,
 				CE230B8523E3EDC100D24706 /* AppDelegate.swift in Sources */,
 				CE230B8723E3EDC100D24706 /* SceneDelegate.swift in Sources */,
+				CE71FD0F23E3F61A001EA025 /* SearchResultCell.swift in Sources */,
+				CE71FD0D23E3F4C9001EA025 /* SearchBarContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +366,7 @@
 		};
 		CE230B9623E3EDC400D24706 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA0E7622B8C66400237D1C2 /* Pods-baKUni.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +384,7 @@
 		};
 		CE230B9723E3EDC400D24706 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 795516FDBDFB9C7A2A336645 /* Pods-baKUni.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
